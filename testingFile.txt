@@ -1,0 +1,18 @@
+$("#tbSale").on('change', '.ProductServiceCode', function () {
+            var getProductCode = $(this).children("option:selected").val();
+            var products = @Html.Raw(Json.Encode(ViewBag.productServices));
+            var getUnitPrice = products.find(function (x) {
+                return x.Code == getProductCode;
+            }).Price;
+            //$(this).closest('tr').children('td:eq(3) input').val(5);
+            // $('.unitprice', this).val(10);
+            //.find('.unitprice').html(getProductCode);
+            //$('.unitprice').find('input').val(unitPrice);
+            //$(this).parents("tr").find('input[name="unitprice"]').val(10);
+            $(this).closest('tr').find('input[name="unitprice"]').val(getUnitPrice);
+            var qty = $(this).closest('tr').find('input[name="quantity"]').val();
+            $(this).closest('tr').find('input[name="price"]').val(getUnitPrice * qty);
+
+
+            //alert(getProductCode);
+        })
