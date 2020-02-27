@@ -1,0 +1,187 @@
+﻿@model OnPointSport.Core.Models.Import
+@{
+    ViewBag.Title = "CreateImport";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var suppliers = ViewBag.suppliers;
+    var discounts = ViewBag.discounts;
+    var totalprices = ViewBag.totalprices;
+    var imports = ViewBag.imports;
+    var productServices = ViewBag.productServices;
+}
+
+@using (Html.BeginForm("CreateImport", "Imports", FormMethod.Post))
+{
+    <!-- Content Wrapper. Contains page content-->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            ពត៍មានកក់ទុក
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> ពត៍មានកក់ទុក</a></li>
+            <li class="active">បង្កើតការកក់</li>
+        </ol>
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-body">
+                        <!-- Date -->
+                        <div class="form-group">
+                            <div id="dvSave" class="col-md-1">
+                                <button id="btnSave" type="submit" class="btn btn-info"> រក្សាទុក </button>
+                            </div>
+                            <div id="dvCancel" class="col-md-1">
+                                <button id="btnCancel" type="button" class="btn btn-danger" onclick="location.href='@Url.Action("CreateImportInformations", "Imports")'"> បោះបង់ </button>
+                            </div>
+                        </div>
+
+                        <!-- Form Import -->
+
+                        <div class="form-group" id="DivImport">
+                            <div class="col-xs-12">
+                                <div class="box" style="margin-top:10px;">
+                                    <!-- /.box-header -->
+                                    <div id="DivCompanyForm" class="box-body" style="padding-left:0px; padding-right:0px;">
+
+                                        <div class="row" style="padding-top:10px">
+                                            <div class="col-md-4">
+                                                <label>លេខកូដ:</label>
+                                                @Html.TextBoxFor(m => m.Code, new { @class = "form-control pull-right", @readonly = "readonly" })
+                                            </div>
+                                            <div class="col-md-2">
+                                                <label> </label>
+                                                <div class="checkbox">
+                                                    @Html.CheckBoxFor(m => m.Active, new { @checked = "checked" })
+                                                    <b>សុពលភាព</b>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding-top:10px">
+                                            <div class="col-md-4">
+                                                <label>អ្នកផ្គត់ផ្គង់:</label>
+                                                @Html.DropDownListFor(m => m.SupplierCode, new SelectList(@suppliers, "Code", "Name"), new { @class = "form-control pull-right" })
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label>បញ្ចុះតម្លៃ(%):</label>
+                                                @Html.DropDownListFor(m => m.DiscountCode, new SelectList(@discounts, "Code", "Name"), new { @class = "form-control pull-right" })
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label>តម្លៃសរុប:</label>
+                                                @Html.TextBoxFor(m => m.TotalPrice, new { @class = "form-control pull-right", Type = "number" })
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="padding-top:10px">
+                                            <div class="col-md-12">
+                                                <label>ផ្សេងៗ:</label>
+                                                @Html.TextBoxFor(m => m.Description, new { @class = "form-control pull-right" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                                <!-- Form Import Detail -->
+
+                                <div class="form-group" id="DivImport">
+                                    <div class="col-xs-12">
+                                        <div class="box" style="margin-top:10px;">
+                                            <!-- /.box-header -->
+                                            <div id="DivCompanyForm" class="box-body" style="padding-left:0px; padding-right:0px;">
+                                                <div class="row" style="padding-top:10px">
+                                                    <div class="col-md-2">
+                                                        <label>ផលិតផល:</label>
+                                                        @Html.DropDownList("ProductServiceCode", new SelectList(@productServices, "Code", "Name"), "----- Select ----", new { @class = "form-control pull-right", @onChange = "selectedVal()", id = "ProductServiceCode" })
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <label>ចំនួន:</label>
+                                                        @Html.TextBox("Quantity", null, new { @class = "form-control pull-right", @type = "number" })
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <label>តម្លៃឯកតា:</label>
+                                                        @Html.TextBox("UnitPrice", null, new { @class = "form-control pull-right", id = "UnitPrice" })
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <label>តម្លៃ:</label>
+                                                        @Html.TextBox("Price", null, new { @class = "form-control pull-right" })
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <label> </label>
+                                                        <div class="checkbox">
+                                                            @Html.CheckBox("Active", isChecked: true)
+                                                            <b>សុពលភាព</b>
+                                                        </div>
+                                                    </div><br />
+                                                    <div class="form-group">
+                                                        <button id="btnSave" type="submit" class="btn btn-facebook" style="margin-right:10px;">រក្សាទុក</button>
+                                                        <button id="btnClear" type="submit" class="btn btn-warning">សម្អាត</button>
+                                                    </div>
+                                                    <div class="col-md-1">
+                                                        @Html.Hidden("Description", null, new { @class = "form-control pull-right" })
+                                                    </div>
+                                                    <div class="col-md-1">
+                                                        @Html.Hidden("Code", null, new { @class = "form-control pull-right", @readonly = "readonly" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- List Import Detail -->
+
+                                            <div id="DivList" style="padding-left:0px; padding-right:0px; padding-bottom:1px; padding-top:10px;">
+                                                <table id="tbImport" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>លេខកូដ</th>
+                                                            <th>ផលិតផល</th>
+                                                            <th>ចំនួន</th>
+                                                            <th>តម្លៃឯកតា</th>
+                                                            <th>តម្លៃ</th>
+                                                            <th>ផ្សេងៗ</th>
+                                                            <th>សុពលភាព</th>
+                                                            <th>សកម្មភាព</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tfoot>
+                                                        <tr>
+                                                            <th></th>
+                                                            <th></th>
+                                                            <th></th>
+                                                            <th></th>
+                                                            <th></th>
+                                                            <th></th>
+                                                            <th></th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</div>
+}
+@section Scripts
+{
+    <script>
+        function selectedVal() {
+            var code = $('#ProductServiceCode').val();
+            var productService = @Html.Raw(Json.Encode(ViewBag.productServices));
+            var unitPrice = productService.find(function (x) {
+                return x.Code == code;
+            }).Price;
+            $('#UnitPrice').val(unitPrice);
+        }
+    </script>
+    }
+

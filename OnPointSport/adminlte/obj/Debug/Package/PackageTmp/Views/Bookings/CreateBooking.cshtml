@@ -1,0 +1,193 @@
+﻿@model OnPointSport.Core.Models.Booking
+@{
+
+    ViewBag.Title = "CreateBooking";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var customers = ViewBag.customers;
+    var bookingdate = ViewBag.bookingdate;
+    var bookingdebuttimes = ViewBag.bookingdebuttimes;
+    var bookingfintimes = ViewBag.bookingfintimes;
+    var booking = ViewBag.booking;
+    var productservices = ViewBag.productServices;
+
+}
+<style>
+    #row {
+        padding-top: 20px
+    }
+    #row label {
+        padding-top: 10px;
+    }
+
+    .box-primary {
+        padding: 0px 20px 20px 20px; /* top right bottom left */
+    }
+
+    .box-shadow {
+        margin-top: 30px;
+    }
+</style>
+
+@using (Html.BeginForm("CreateBooking", "Bookings", FormMethod.Post))
+{
+    <div class="content-wrapper">
+        <section class="content-header">
+            <h1>
+                ពត៍មានកក់ទុក
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> ពត៍មានកក់ទុក</a></li>
+                <li class="active">បង្កើតការកក់</li>
+            </ol>
+        </section>
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box box-primary">
+                        <div class="box-body">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <button id="btnSave" type="submit" class="btn btn-info"> រក្សាទុក </button>&nbsp;
+                                        <button id="btnCancel" type="button" class="btn btn-danger" onclick="location.href='@Url.Action("BookingsInformation", "Bookings")'"> បោះបង់ </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Form Booking -->
+
+                            <div class="form-group" id="DivBooking">
+                                <div id="DivCompanyForm" class="box-body box-shadow" style="padding-left:30px; padding-right:30px;">
+
+                                    <div class="row" id="row" style="padding-top:5px;">
+                                        <div class="col-md-1"><label>លេខកូដ:</label></div>
+                                        <div class="col-md-3">
+                                            @Html.TextBoxFor(m => m.Code, new { @class = "form-control pull-right", @readonly = "readonly" })
+                                        </div>
+                                        <div class="col-md-1"><label>អតិថិជន:</label></div>
+                                        <div class="col-md-3">
+                                            @Html.DropDownListFor(m => m.CustomerCode, new SelectList(@customers, "Code", "Name"), new { @class = "form-control pull-right" })
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="checkbox">
+                                                @Html.CheckBoxFor(m => m.Active, new { @checked = "checked" })
+                                                <b>សុពលភាព</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" id="row">
+                                        <div class="col-md-1"><label>ពីថ្ងៃទី:</label></div>
+                                        <div class="col-md-3">
+                                            <div class="input-group date">
+                                                <div class="input-group-addon">
+                                                    <i class="fa fa-calendar"></i>
+                                                </div>
+                                                @Html.TextBoxFor(m => m.BookingDebutTime, "{0:MM/dd/yyyy}", new { @class = "form-control datetimepicker", id = "dtpBookingDebutTime" })
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1"><label>ទៅថ្ងៃទី:</label></div>
+                                        <div class="col-md-3">
+                                            <div class="input-group date">
+                                                <div class="input-group-addon">
+                                                    <i class="fa fa-calendar"></i>
+                                                </div>
+                                                @Html.TextBoxFor(m => m.BookingFinTime, "{0:MM/dd/yyyy}", new { @class = "form-control datetimepicker", id = "dtpBookingFinTime" })
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1"><label>ថ្ងៃកក់ទុក:</label></div>
+                                        <div class="col-md-3">
+                                            <div class="input-group date">
+                                                <div class="input-group-addon">
+                                                    <i class="fa fa-calendar"></i>
+                                                </div>
+                                                @Html.TextBoxFor(m => m.BookingDate, "{0:MM/dd/yyyy}", new { @class = "form-control datetimepicker", id = "dtpBookingDate" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" id="row">
+                                        <div class="col-md-1"><label>ផ្សេងៗ:</label></div>
+                                        <div class="col-md-7">
+                                            @Html.TextBoxFor(m => m.Description, new { @class = "form-control pull-right" })
+                                        </div>
+                                    </div>
+                                    <div class="row" id="row">
+                                        <div id="DivList" class="col-md-12">
+                                            <div class="box" style="padding-left:0px; padding-right:0px;">
+                                                <table id="tbBooking" class="table table-bordered table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>លេខរាង</th>
+                                                            <th>ផលិតផល</th>
+                                                            <th>ចំនួន</th>
+                                                            <th>តម្លៃ</th>
+                                                            <th>តម្លៃសរុប</th>
+                                                            <th>សុពលភាព</th>
+                                                            <th><a href="#" style="font-size:15px;">&nbsp;&nbsp; <span class="fa fa-plus"></span></a> </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>PC</td>
+                                                            <td>1</td>
+                                                            <td>20$</td>
+                                                            <td>40$</td>
+                                                            <td></td>
+                                                            <td><a href="#" style="font-size:15px;">&nbsp;&nbsp; <span class="fa fa-trash"></span></a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Laptop</td>
+                                                            <td>2</td>
+                                                            <td>20$</td>
+                                                            <td>40$</td>
+                                                            <td></td>
+                                                            <td><a href="#" style="font-size:15px;">&nbsp;&nbsp; <span class="fa fa-trash"></span></a></td>
+                                                        </tr>
+                                                    </tbody>
+                                                    <tfoot>
+                                                        <tr>
+                                                            <th></th>
+                                                            <th></th>
+                                                            <th></th>
+                                                            <th>សរុប:</th>
+                                                            <th>1000$</th>
+                                                        </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+    </div>
+}
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#dtpBookingDebutTime').datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                dateFormat: "MM/dd/yyyy"
+            }).datepicker("setDate","0")
+            $('#dtpBookingFinTime').datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                dateFormat: "MM/dd/yyyy"
+            }).datepicker("setDate","0")
+            $('#dtpBookingDate').datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                dateFormat: "MM/dd/yyyy"
+            }).datepicker("setDate","0")
+
+        })
+    </script>
+}

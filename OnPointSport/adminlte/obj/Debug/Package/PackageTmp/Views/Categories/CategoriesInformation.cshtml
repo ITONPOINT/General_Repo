@@ -1,0 +1,232 @@
+﻿@using OnPointSport.Core.Models
+
+@model IEnumerable<Category>
+@{
+    ViewBag.Title = "CategoriesInformation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            ពត៍មានប្រភេទទំនិញ
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> បញ្ជីព័ត៌មានប្រភេទទំនិញ</a></li>
+            <li class="active"> ពត៍មានប្រភេទទំនិញ</li>
+        </ol>
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-body" style="padding-bottom:15px;">
+                        <!-- Date -->
+                        <div class="form-group">
+                            <div class="row" style="padding-top: 10px;">
+                                @using (Html.BeginForm("CategoriesInformation", "Categories", FormMethod.Get))
+                                {
+                                    <div class="col-md-1" style="padding-left:55px; width:auto">
+                                        <div class="checkbox">
+                                            @Html.CheckBox("ActiveSearch", true) សុពលភាព
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                @Html.TextBox("search", null, new { @class = "form-control", @style = "background-color:#fff;", @placeholder = "ស្វែងរក... " })
+                                            </div>
+                                            <div class="col-md-2">
+                                                <button id="btnSearch" type="submit" class="btn btn-success"><span class="fa fa-search" /> ស្វែងរក </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="float:right; padding-right:35px;">
+                                        <button id="btnCreateNew" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><span class="fa fa-plus" />&nbsp; បង្កើតថ្មី</button>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="form-group" style="padding-left: 20px; padding-right: 20px;" id="DivCompanyInformation1">
+                            <div class="box-body box-shadow">
+                                <table id="tbCategory" class="table table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>លេខកូដ</th>
+                                            <th>ឈ្មោះ</th>
+                                            <th>សុពលភាព</th>
+                                            <th>ផ្សេងៗ</th>
+                                            <th>សកម្មភាព</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var category in Model)
+                                        {
+                                            <tr>
+                                                <td>@category.Code</td>
+                                                <td>@category.Name</td>
+                                                <td><input type="checkbox" checked="@category.Active" /></td>
+                                                <td>@category.Description</td>
+                                                <td>
+                                                    <a id="edit" href="#myModal" data-toggle="modal" data-target="#myModal"
+                                                       data-code="@category.Code"
+                                                       data-active="@category.Active"
+                                                       data-name="@category.Name"
+                                                       data-description="@category.Description">
+                                                        <i class="fa fa-edit" style="font-size:20px;color:blue;" title="Edit"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        }
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" style="width:80%" role="document">
+                <div class="modal-content" style="border-radius: 5px;">
+                    <div class="modal-header">
+                        <a href="#" class="close" data-dismiss="modal">&times;</a>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group" style="padding-left: 20px; padding-right: 20px;">
+                            <div id="DivCatecgoryProvinceForm" class="box-body box-shadow" style="padding-left:0px; padding-right:0px;">
+                                <div class="row" style="padding-top:10px; padding-left: 100px;">
+                                    <div class="col-md-2">
+                                        <label style="padding-top: 10px;">លេខកូដ:</label>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input id="Code" type="text" class="form-control pull-right" readonly="readonly" />
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="checkbox">
+                                            <input type="checkbox" id="Active" />
+                                            <b>សុពលភាព</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding-top:10px; padding-left: 100px;">
+                                    <div class="col-md-2">
+                                        <label style="padding-top: 10px;">ឈ្មោះ:</label>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input id="Name" type="text" class="form-control pull-right" />
+                                    </div>
+                                </div>
+                                <div class="row" style="padding-top:10px; padding-left: 100px;padding-bottom: 20px;">
+                                    <div class="col-md-2">
+                                        <label style="padding-top: 10px;">ផ្សេងៗ:</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input id="Description" type="text" class="form-control pull-right" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="padding-bottom:15px;">
+                        <div class="col-md-2" style="float:right; width:auto;">
+                            <button id="btnSave" class="btn btn-info" data-dismiss="modal"><span class="fa fa-save"></span> រក្សាទុក</button>
+                            <button id="btnCancel" class="btn btn-danger" data-dismiss="modal"><span class="fa fa-close"></span> បោះបង់</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+
+            $('#tbCategory').DataTable({
+                'paging': true,
+                'lengthChange': true,
+                'searching': false,
+                'ordering': true,
+                'info': true,
+                'autoWidth': false
+            })
+            $(document).on('click', '#edit', function () {
+                var Code = $(this).data('code');
+                var Active = $(this).data('active');
+                var Name = $(this).data('name');
+                var Description = $(this).data('description');
+                clearControl();
+                $('#Code').val($.trim(Code));
+                if (Active == "True") {
+                    $("#Active").attr('checked', Active);
+                }
+                else {
+                    $("#Active").removeAttr('checked');
+                }
+                $('#Name').val($.trim(Name));
+                $('#Description').val($.trim(Description));
+            })
+
+            $('#btnSave').click(function (e) {
+                e.preventDefault();
+                var Code;
+                if ($.trim($('#Code').val()) == null || $.trim($('#Code').val()) == '') {
+                    Code = $.trim("ROOT");
+                } else {
+                    Code = $.trim($('#Code').val());
+                }
+                var data = JSON.stringify({
+                    Code: Code,
+                    Active: $("#Active").is(":checked"),
+                    Name: $.trim($('#Name').val()),
+                    Description: $.trim($('#Description').val())
+                });
+
+                $.ajax({
+                    type: "POST",
+                    url: "CreateCategory",
+                    data: data,
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        location.reload();
+                    },
+                    failure: function (response) {
+                        alert("failure: " + response.responseText);
+                    },
+                    error: function (response) {
+                        alert("error: " + response.responseText);
+                    }
+                });
+            });
+
+            $('#btnCreateNew').click(function (e) {
+                e.preventDefault();
+                clearControl();
+            });
+
+            function clearControl() {
+                $('#Code').val('');
+                $("#Active").attr('checked', Active);
+                $('#Name').val('');
+                $('#Description').val('');
+            }
+        });
+
+    </script>
+}
