@@ -1,0 +1,260 @@
+E:\DATA_ACCOUNT\OnPointSport\adminlte\obj\Debug\OnPointSport.csprojAssemblyReference.cache
+E:\DATA_ACCOUNT\OnPointSport\adminlte\obj\Debug\OnPointSport.csproj.CoreCompileInputs.cache
+D:\OnPoint Project\OnPointSport\adminlte\obj\Debug\OnPointSport.csproj.CoreCompileInputs.cache
+D:\OnPoint Project\OnPointSport\adminlte\obj\Debug\OnPointSport.csprojAssemblyReference.cache
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\csc.exe
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\System.Collections.Immutable.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\System.Reflection.Metadata.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\vbc.exe
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\VBCSCompiler.exe
+D:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\VBCSCompiler.exe.config
+D:\OnPoint Project\OnPointSport\adminlte\bin\adminlte.dll.config
+D:\OnPoint Project\OnPointSport\adminlte\bin\adminlte.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\adminlte.pdb
+D:\OnPoint Project\OnPointSport\adminlte\bin\Antlr3.Runtime.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Autofac.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Autofac.Integration.Mvc.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\EntityFramework.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\EntityFramework.SqlServer.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Core.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Cookies.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Facebook.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Google.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.OAuth.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Twitter.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Web.Infrastructure.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Newtonsoft.Json.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Core.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Data.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\Owin.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\PagedList.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\PagedList.Mvc.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Helpers.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Mvc.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Optimization.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Razor.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.Deployment.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.Razor.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\WebGrease.dll
+D:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Core.pdb
+D:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Core.dll.config
+D:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Data.pdb
+D:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Data.dll.config
+D:\OnPoint Project\OnPointSport\adminlte\bin\Autofac.pdb
+D:\OnPoint Project\OnPointSport\adminlte\bin\Autofac.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Autofac.Integration.Mvc.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\EntityFramework.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\EntityFramework.SqlServer.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\PagedList.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\PagedList.Mvc.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Helpers.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Mvc.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Optimization.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Razor.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.Deployment.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.Razor.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Antlr3.Runtime.pdb
+D:\OnPoint Project\OnPointSport\adminlte\bin\Newtonsoft.Json.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Core.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Facebook.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Cookies.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.OAuth.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Google.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Twitter.xml
+D:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\OnPoint Project\OnPointSport\adminlte\obj\Debug\OnPointSport.csproj.CopyComplete
+D:\OnPoint Project\OnPointSport\adminlte\obj\Debug\adminlte.dll
+D:\OnPoint Project\OnPointSport\adminlte\obj\Debug\adminlte.pdb
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\csc.exe
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.CodeAnalysis.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.CSharp.Core.targets
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\Microsoft.VisualBasic.Core.targets
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\System.Collections.Immutable.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\System.Reflection.Metadata.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\vbc.exe
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\VBCSCompiler.exe
+B:\OnPoint Project\OnPointSport\adminlte\bin\roslyn\VBCSCompiler.exe.config
+B:\OnPoint Project\OnPointSport\adminlte\bin\adminlte.dll.config
+B:\OnPoint Project\OnPointSport\adminlte\bin\adminlte.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\adminlte.pdb
+B:\OnPoint Project\OnPointSport\adminlte\bin\Antlr3.Runtime.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Autofac.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Autofac.Integration.Mvc.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\EntityFramework.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\EntityFramework.SqlServer.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Core.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Owin.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Host.SystemWeb.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Cookies.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Facebook.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Google.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.OAuth.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Twitter.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Web.Infrastructure.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Newtonsoft.Json.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Core.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Data.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\Owin.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\PagedList.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\PagedList.Mvc.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Helpers.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Mvc.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Optimization.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Razor.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.Deployment.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.Razor.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\WebGrease.dll
+B:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Core.pdb
+B:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Core.dll.config
+B:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Data.pdb
+B:\OnPoint Project\OnPointSport\adminlte\bin\OnPointSport.Data.dll.config
+B:\OnPoint Project\OnPointSport\adminlte\bin\Autofac.pdb
+B:\OnPoint Project\OnPointSport\adminlte\bin\Autofac.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Autofac.Integration.Mvc.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\EntityFramework.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\EntityFramework.SqlServer.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\PagedList.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\PagedList.Mvc.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Helpers.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Mvc.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Optimization.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.Razor.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.Deployment.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\System.Web.WebPages.Razor.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Antlr3.Runtime.pdb
+B:\OnPoint Project\OnPointSport\adminlte\bin\Newtonsoft.Json.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Core.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Owin.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Host.SystemWeb.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Facebook.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Cookies.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.OAuth.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Google.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Twitter.xml
+B:\OnPoint Project\OnPointSport\adminlte\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+B:\OnPoint Project\OnPointSport\adminlte\obj\Debug\OnPointSport.csprojAssemblyReference.cache
+B:\OnPoint Project\OnPointSport\adminlte\obj\Debug\OnPointSport.csproj.CoreCompileInputs.cache
+B:\OnPoint Project\OnPointSport\adminlte\obj\Debug\OnPointSport.csproj.CopyComplete
+B:\OnPoint Project\OnPointSport\adminlte\obj\Debug\adminlte.dll
+B:\OnPoint Project\OnPointSport\adminlte\obj\Debug\adminlte.pdb
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\csc.exe
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\System.Collections.Immutable.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\System.Reflection.Metadata.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\vbc.exe
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\VBCSCompiler.exe
+D:\OnPointSoft\OnPointSport\adminlte\bin\roslyn\VBCSCompiler.exe.config
+D:\OnPointSoft\OnPointSport\adminlte\bin\adminlte.dll.config
+D:\OnPointSoft\OnPointSport\adminlte\bin\adminlte.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\adminlte.pdb
+D:\OnPointSoft\OnPointSport\adminlte\bin\Antlr3.Runtime.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Autofac.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Autofac.Integration.Mvc.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\EntityFramework.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\EntityFramework.SqlServer.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Core.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Cookies.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Facebook.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Google.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.OAuth.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Twitter.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Web.Infrastructure.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Newtonsoft.Json.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\OnPointSport.Core.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\OnPointSport.Data.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\Owin.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\PagedList.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\PagedList.Mvc.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.Helpers.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.Mvc.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.Optimization.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.Razor.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.WebPages.Deployment.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.WebPages.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.WebPages.Razor.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\WebGrease.dll
+D:\OnPointSoft\OnPointSport\adminlte\bin\OnPointSport.Core.pdb
+D:\OnPointSoft\OnPointSport\adminlte\bin\OnPointSport.Core.dll.config
+D:\OnPointSoft\OnPointSport\adminlte\bin\OnPointSport.Data.pdb
+D:\OnPointSoft\OnPointSport\adminlte\bin\OnPointSport.Data.dll.config
+D:\OnPointSoft\OnPointSport\adminlte\bin\Autofac.pdb
+D:\OnPointSoft\OnPointSport\adminlte\bin\Autofac.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Autofac.Integration.Mvc.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\EntityFramework.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\EntityFramework.SqlServer.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\PagedList.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\PagedList.Mvc.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.Helpers.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.Mvc.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.Optimization.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.Razor.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.WebPages.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.WebPages.Deployment.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\System.Web.WebPages.Razor.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Antlr3.Runtime.pdb
+D:\OnPointSoft\OnPointSport\adminlte\bin\Newtonsoft.Json.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Core.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Facebook.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Cookies.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.OAuth.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Google.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.Twitter.xml
+D:\OnPointSoft\OnPointSport\adminlte\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\OnPointSoft\OnPointSport\adminlte\obj\Debug\OnPointSport.csprojAssemblyReference.cache
+D:\OnPointSoft\OnPointSport\adminlte\obj\Debug\OnPointSport.csproj.CoreCompileInputs.cache
+D:\OnPointSoft\OnPointSport\adminlte\obj\Debug\OnPointSport.csproj.CopyComplete
+D:\OnPointSoft\OnPointSport\adminlte\obj\Debug\adminlte.dll
+D:\OnPointSoft\OnPointSport\adminlte\obj\Debug\adminlte.pdb
